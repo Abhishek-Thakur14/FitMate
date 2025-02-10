@@ -14,13 +14,15 @@ const Container = styled.div`
     flex-direction: column;
   }
 `;
+
 const Left = styled.div`
-  flex: 1;
+  flex: 1; /* Increased from 1 to 1.2 (60%) */
   position: relative;
   @media (max-width: 700px) {
     display: none;
   }
 `;
+
 const Logo = styled.img`
   position: absolute;
   width: 70px;
@@ -28,15 +30,17 @@ const Logo = styled.img`
   left: 60px;
   z-index: 10;
 `;
+
 const Image = styled.img`
   position: relative;
   height: 100%;
   width: 100%;
   object-fit: cover;
+  filter: blur(2px); /* Added blur effect */
 `;
 
 const Right = styled.div`
-  flex: 1;
+  flex: 0.8; /* Reduced from 1 to 0.8 to balance */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -55,6 +59,7 @@ const Text = styled.div`
     font-size: 14px;
   }
 `;
+
 const TextButton = styled.span`
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
