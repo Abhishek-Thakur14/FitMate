@@ -29,8 +29,11 @@ const SignUp = () => {
   const [loading, setLoading] = useState(false);
   const [buttonDisabled, setButtonDisabled] = useState(false);
   const [name, setName] = useState("");
+  console.log(name)
   const [email, setEmail] = useState("");
+  console.log(email)
   const [password, setPassword] = useState("");
+  console.log(password)
 
   const validateInputs = () => {
     if (!name || !email || !password) {
