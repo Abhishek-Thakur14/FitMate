@@ -137,7 +137,7 @@ const Navbar = ({ currentUser }) => {
           <MenuRounded sx={{ color: "inherit" }} />
         </Mobileicon>
         <NavLogo to="/">
-          FittnessTracker
+          FitMate
         </NavLogo>
 
         <MobileMenu isOpen={isOpen}>
