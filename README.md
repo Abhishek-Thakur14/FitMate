@@ -1,6 +1,8 @@
 FitMate – Full Stack Architecture Overview
 FitMate is a full-stack fitness tracking and authentication platform built with a structured client and server architecture. The project is divided into two main sections:
 
+i will show how to implement the pull request
+
 Client (Frontend) – Built using React.js, managing user interactions and UI/UX.
 Server (Backend) – Likely built using Node.js, Express.js, and possibly a database like MongoDB or PostgreSQL to handle user authentication and data management.
 
